@@ -33,7 +33,7 @@ def F_iterative_optimized(n):
         return -23
 
     prev = -23  # F(1)
-    prev_factorial = 1  # (2*1)! = 2! = 2
+    prev_factorial = 2  # (2*1)! = 2! = 2
 
     for i in range(2, n + 1):
         if i % 2 == 0:  # Если i четное
